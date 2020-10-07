@@ -1,0 +1,172 @@
+  *{
+     margin: 0px;
+     padding: 0px;
+   }
+body{
+     font-family: arial;
+     background-image: url("./image/bitmap.jpg");
+     background-size: cover;
+    }  
+.card{
+     width: 12%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     background-color: white;
+     margin: 2%;
+    }
+
+   .image img{ 
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+    }
+   
+   .title{
+     text-align: center;
+     padding: 10px;
+     background-color: #8e44ad;
+
+    }
+   
+   h1{
+     font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+        padding: 1%;
+        margin: 1%;
+       }
+    h3{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 2%;
+    }
+   
+   .card:hover {
+     transform: scale(1.15);
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+   }
+   a{
+     text-decoration:none;
+     font-size: 25px;
+   }
+   
+   button{
+    margin-top: 12%;
+    margin-left: 40%;
+    width: 20%;
+    height: 50px;
+    background-color: #ecf0f1;
+    border: none;
+    border-radius: 2%;
+    padding:10px;   
+  }
+  button:hover{
+    background-color: #27ae60;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    transform: scale(1.15);
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+.gamemain{
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+}
+
+  .gamecard{
+    width: 50%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    background-color: white;
+    position: relative;
+    margin: 2%;
+    margin-top: 10%;
+    margin-left:25% ;
+   }
+   #board{
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    background-color: white;
+    position: relative;
+    margin: 2%;
+    margin-top: 10%;
+    margin-left:1% ;
+   }
+
+   li{
+       display: inline-block;;
+       font-size: 10px;
+   }
+   #score{
+       padding: 4%;
+       margin-left: 23%;
+   }
+   #col{
+       font-size: 30px;
+   }
+   .navbar {
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    transform: scale(1.0);
+    box-shadow: 15px 15px 25px rgba(0,0,0,0.6);
+  }
+
+  
+  .nav-links,
+  .logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+
+  .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+  
+
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+    }
+  
+    .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  
+    .main-nav li {
+      margin: 0;
+    }
+  
+    .nav-links {
+      margin-left: 40px;
+    }
+  
+    .navbar-toggle {
+      display: none;
+    }
+    #top{
+        
+        padding:3% ;
+        margin-left: 3%;
+        color: white;
+    }
+  

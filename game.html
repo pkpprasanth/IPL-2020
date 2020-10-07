@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <div class="gamemain">
+        <div class="gamecard">
+            <div class="image">
+                <img src="./image/csk.png">
+            </div>
+            <div class="title">
+                <h1 id="team1">CSK</h1>
+            </div>
+            <div id="score">
+                <div id="team-1">
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                </div>
+            </div>
+        </div>
+        <div id="board" style="visibility: hidden;">
+            <h3>Score board</h3><br>
+            <h3 id="teamname1"></h3></br>
+            <h3 id="teamname2"></h3></br>
+            <h3 id="result"></h3>
+            <button type="button" id="btn1" onclick="history.go(0)">Try Again</button>
+
+        </div>
+        <div class="gamecard">
+            <div class="image">
+                <img src="./image/MI.jpg">
+            </div>
+            <div class="title">
+                <h1 id="team2">Mumbai Indians</h1>
+            </div>
+            <div id="score">
+                <div id="team-2">
+
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                    <span id="col">-</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button type="button" id="btn" onclick="play()">Bat Mumbai Indians </button>
+    </div>
+
+</body>
+
+</html>
