@@ -89,7 +89,7 @@ body{
    }
    #board{
     width: 100%;
-    height: 80%;
+    height: 100%;
     display: inline-block;
     box-shadow: 2px 2px 20px black;
     border-radius: 5px; 
@@ -191,7 +191,14 @@ body{
       flex-wrap: wrap;
       justify-content: space-evenly;
   }
-  
+  #btn1{
+    position: relative;
+    margin-right: 90%;
+    padding: 1%;
+    margin: 1%;
+    margin-top:4% ;
+    margin-left:20% ;
+  }
   .container{
     
       width: 94%;
@@ -253,6 +260,10 @@ body{
       color: white;
       transform: scale(1.00);
      box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  #result{
+    border:none;
+    background-color: rgb(7, 131, 13);
   }
   .csk-img{
       width: 80%;
