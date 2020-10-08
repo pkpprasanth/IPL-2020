@@ -6,6 +6,7 @@ body{
      font-family: arial;
      background-image: url("./image/bitmap.jpg");
      background-size: cover;
+     background-repeat: no-repeat;
     }  
 .card{
      width: 12%;
@@ -111,14 +112,21 @@ body{
        font-size: 30px;
    }
    .navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     font-size: 18px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 10px;
     transform: scale(1.0);
+    background-color: #8e44ad;
     box-shadow: 15px 15px 25px rgba(0,0,0,0.6);
   }
 
-  
+  img{
+    border-radius: 50%;
+  }
   .nav-links,
   .logo {
     text-decoration: none;
@@ -144,7 +152,13 @@ body{
       height: 70px;
       align-items: center;
     }
-  
+.main{
+  margin-top: 20%;
+}
+#logo{
+  width: 10%;
+  margin-left: 2%;
+}
     .main-nav {
       display: flex;
       margin-right: 30px;
@@ -165,8 +179,108 @@ body{
     }
     #top{
         
-        padding:3% ;
-        margin-left: 3%;
+        padding:3%;
+        margin-left: 2%;
         color: white;
     }
+
+
+
+    .flex{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
   
+  .container{
+    
+      width: 94%;
+      height: 90vh;
+      margin: 1%;
+      align-items: center;
+      /* background-color: lightgray; */
+      padding: 1%;
+  
+  }
+   .qualifier{
+      width: 25%;
+      height: 70vh;
+      padding: 1%;
+      margin: 1%;
+      border: 2px solid rgb(247, 245, 245);
+      border-radius: 5px;
+  
+  }
+  .semiFinal{
+      width: 25%;
+      height: 35vh;
+      padding: 1%;
+      margin: 1%;
+      border: 2px solid rgb(248, 245, 245);
+      border-radius: 5px;
+  }
+  
+  .final{
+      width: 25%;
+      height: 17vh;
+      padding: 1%;
+      margin: 1%;
+      border: 2px solid rgb(248, 250, 249);
+      border-radius: 5px;
+  }
+  .set{
+      width: 95%;
+      height: 15vh;
+      padding: 1%;
+      margin: 1%;
+      border: 1.5px solid orangered;
+      border-radius: 5px;
+  
+  }
+  .card1{
+      width: 40%;
+      height: 13vh;
+      padding: 1%;
+      margin: 1%;
+      
+      background-color: white;
+  }
+  h3{
+      margin: 5vh auto auto auto;
+      border: 1px solid orangered;
+      border-radius: 50px;
+      background-color: orangered;
+      color: white;
+  }
+  .csk-img{
+      width: 80%;
+      margin-left: 10%;
+  }
+  .kkr-img{
+      width: 45%;
+      margin-left: 25%;
+  }
+  .dc-img{
+      width: 70%;
+      margin-left: 15%;
+  }
+  .kxi-img{
+      width: 60%;
+      margin-left: 20%;
+  }
+  .rcb-img{
+      width: 48%;
+      margin-left: 20%;
+  }
+  .rr-img{
+      width: 70%;
+      margin-left: 20%;
+  }
+  .shr-img{
+      width: 70%;
+      margin: 2vh auto auto 20%;
+  }
+  .mi-img{
+      width: 100%;
+
+  }
