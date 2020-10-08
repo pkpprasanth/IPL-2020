@@ -248,9 +248,11 @@ body{
   h3{
       margin: 5vh auto auto auto;
       border: 1px solid orangered;
-      border-radius: 50px;
+      border-radius: 70px;
       background-color: orangered;
       color: white;
+      transform: scale(1.00);
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
   .csk-img{
       width: 80%;
